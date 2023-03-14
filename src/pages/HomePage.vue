@@ -1,11 +1,11 @@
 <script>
 export default {
-    name: 'Portfolio'
+    name: 'HomePgae'
 }
 </script>
 <template >
     <div>
-        <h1>ciao</h1>
+        <h1>coa</h1>
     </div>
 </template>
 <style lang="">

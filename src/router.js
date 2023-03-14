@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomePage from "./pages/HomePage";
-import Portfolio from "./pages/Portfolio";
+import HomePage from "./pages/HomePage.vue";
+import Portfolio from "./pages/Portfolio.vue";
 
 const router = createRouter({
     history: createWebHistory(),
@@ -16,6 +16,6 @@ const router = createRouter({
             component: Portfolio
         },
     ]
-})
+});
 
-export { router }
+export { router };

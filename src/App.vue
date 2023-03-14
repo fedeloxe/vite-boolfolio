@@ -1,9 +1,12 @@
 <script >
 import ProjectMain from './components/ProjectMain.vue';
+import AppHeader from './components/AppHeader.vue';
 
 export default {
   components: {
     ProjectMain,
+    AppHeader,
+
   },
   data() {
     return {
@@ -14,7 +17,9 @@ export default {
 </script>
 
 <template>
-  <ProjectMain />
+  <AppHeader />
+  <!-- <ProjectMain /> -->
+  <router-view />
 </template>
 
 <style lang="scss">
