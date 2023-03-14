@@ -4,8 +4,8 @@ export default {
 }
 </script>
 <template >
-    <div>
-        <h1>coa</h1>
+    <div class="text-center">
+        <h1>Home Boolpress</h1>
     </div>
 </template>
 <style lang="">
