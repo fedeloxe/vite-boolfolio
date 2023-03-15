@@ -4,7 +4,7 @@ export default {
 }
 </script>
 <template >
-    <div>
+    <div class="ms-2">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -18,12 +18,9 @@ export default {
                     <h2 class="nav-item nav-link" href="#"><router-link to="/portfolio"
                             class="nav-link">Portfolio</router-link>
                     </h2>
-
                 </div>
             </div>
         </nav>
-
-
     </div>
 </template>
 <style lang="">
