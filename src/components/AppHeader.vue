@@ -18,6 +18,9 @@ export default {
                     <h2 class="nav-item nav-link" href="#"><router-link to="/portfolio"
                             class="nav-link">Portfolio</router-link>
                     </h2>
+                    <h2 class="nav-item nav-link" href="#"><router-link to="/contacts"
+                            class="nav-link">contattaci</router-link>
+                    </h2>
                 </div>
             </div>
         </nav>

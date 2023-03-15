@@ -36,7 +36,7 @@ export default {
             <div class="row my-4">
 
                 <div class="col-6">
-                    <img class="img-fluid "
+                    <img class="img-fluid rounded-1"
                         :src="project.cover_image
                             != null ? `${this.baseUrl}/storage/${project.cover_image}` :
                             'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGZmZTBiMDU4OTQyY2FlODQxNGMwNzFmNjEzZmM2NTk0YTU0NGM2OSZjdD1n/xT5LMtQcg52JMYfPzO/giphy.gif'">
